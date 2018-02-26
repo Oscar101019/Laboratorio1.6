@@ -35,16 +35,31 @@ public class MainActivity extends AppCompatActivity {
 
         // Aquí va la adición de elementos a la lista
         productList.add(
-                new DataProvider("Titulo1", "Otro1",R.drawable.imagen1)
+                new DataProvider("Dance & House", "Random Accesses Memories",R.drawable.imagen1)
         );
         productList.add(
-                new DataProvider("Titulo2", "Otro2",R.drawable.imagen2)
+                new DataProvider("Electronica", "Discovery",R.drawable.imagen2)
         );
         productList.add(
-                new DataProvider("Titulo3", "Otro3",R.drawable.imagen3)
+                new DataProvider(" Alternativa/Independiente", "Demon Days",R.drawable.imagen3)
         );
         productList.add(
-                new DataProvider("Titulo4", "Otro4",R.drawable.imagen4)
+                new DataProvider("Electroni/R&B/Hip Hop", "Humanz",R.drawable.imagen4)
+        );
+        productList.add(
+                new DataProvider("Alternative metal", "Toxicity",R.drawable.imagen5)
+        );
+        productList.add(
+                new DataProvider("Heavy Metal", "Hypnotize",R.drawable.imagen6)
+        );
+        productList.add(
+                new DataProvider("Nu Metal, ", "Murdered Love",R.drawable.imagen7)
+        );
+        productList.add(
+                new DataProvider("Heavy metal", "Nightmare",R.drawable.imagen8)
+        );
+        productList.add(
+                new DataProvider("Metal Progresivo", "City of Evil",R.drawable.imagen9)
         );
 
         adapter = new ProductAdapter(this,productList);
